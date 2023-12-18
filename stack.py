@@ -21,6 +21,10 @@ def peek(stack):
 peek(stack)
 
 
+print(stack.pop())
+print(stack.pop())
+# NOTE: we just flipped our numbers, we added 1,2,3 but then receieved 3,2,1. 
+
 # this is a stack with all 3 operations, push, pop and peek. 
 
 # NOTE: this is LIFO. Last in first out. 
