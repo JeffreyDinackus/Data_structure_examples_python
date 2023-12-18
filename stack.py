@@ -22,3 +22,5 @@ peek(stack)
 
 
 # this is a stack with all 3 operations, push, pop and peek. 
+
+# NOTE: this is LIFO. Last in first out. 
