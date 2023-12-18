@@ -1,13 +1,24 @@
-class Stack:
 
-  def push(self):
-    pass
 
-  def isEmpty(self):
-    return 0
-  
+stack = []
 
-  def peek():
-    if top == None:
-      raise 
-    return top.plate
+
+# append is the equivalent of push
+stack.append(1)
+
+
+stack.append(2)
+
+
+stack.append(3)
+
+# pop from the end
+print(stack.pop())
+
+def peek(stack):
+  return stack[-1]
+
+peek(stack)
+
+
+# this is a stack with all 3 operations, push, pop and peek. 
